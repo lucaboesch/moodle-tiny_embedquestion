@@ -67,7 +67,6 @@ Feature: Embed question in the Tiny editor
     And I set the field "content" to "Test page content"
     And I click on the "Insert > Embedded question" menu item for the "Description" TinyMCE editor
     When I click on "Switch bank" "button" in the "Embedded question" "dialogue"
-    And I should see "Qbank 1"
     And I open the autocomplete suggestions list in the "Select question bank" "dialogue"
     And "Qbank 2" "autocomplete_suggestions" should exist
     And I click on "C2 - Qbank 2" item in the autocomplete list

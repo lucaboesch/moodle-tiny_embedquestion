@@ -24,11 +24,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2025091600;
-$plugin->requires = 2024042200; // Requires Moodle 4.4.
+$plugin->version = 2026061100;
+$plugin->requires = 2025100600; // Requires Moodle 5.1.
 $plugin->component = 'tiny_embedquestion';
-$plugin->release = '1.2';
+$plugin->release = '1.3';
 $plugin->maturity = MATURITY_STABLE;
+$plugin->supported = [501, 502];
 
 $plugin->dependencies = [
     'filter_embedquestion' => 2025091600,
